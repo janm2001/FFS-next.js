@@ -7,10 +7,7 @@ const NotesPage = async ({
 }) => {
   const { important } = await searchParams;
   const showImportant = important === "true";
-  const allNotes = getNotes();
-  const notes = showImportant
-    ? allNotes.filter((note) => note.important)
-    : allNotes;
+  const notes = await getNotes(showImportant);
   return (
     <div>
       <h2>Notes</h2>
