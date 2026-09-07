@@ -8,6 +8,13 @@
       "when": 1788763373070,
       "tag": "0000_certain_northstar",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788768571060,
+      "tag": "0001_slimy_prodigy",
+      "breakpoints": true
     }
   ]
 }
