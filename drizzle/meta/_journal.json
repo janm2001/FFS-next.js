@@ -15,6 +15,34 @@
       "when": 1788768571060,
       "tag": "0001_slimy_prodigy",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788776604380,
+      "tag": "0002_stormy_blazing_skull",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788776814631,
+      "tag": "0003_tricky_ricochet",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788783268236,
+      "tag": "0004_marvelous_rictor",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788783319183,
+      "tag": "0005_hard_kylun",
+      "breakpoints": true
     }
   ]
 }
