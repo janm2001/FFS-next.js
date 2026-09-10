@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import AuthSessionProvider from "./components/SessionProvider";
 
 export default function RootLayout({
   children,
@@ -7,8 +8,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Navbar />
-      <body>{children}</body>
+      <AuthSessionProvider>
+        <Navbar />
+        <body>{children}</body>
+      </AuthSessionProvider>
     </html>
   );
 }
