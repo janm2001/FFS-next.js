@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import { getUsers } from "../services/users";
 
 const UsersPage = async () => {
