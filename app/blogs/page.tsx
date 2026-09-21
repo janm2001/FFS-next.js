@@ -23,7 +23,7 @@ const BlogsPage = async ({
               <h2>{blog.title}</h2>
               <p>{blog.author}</p>
               <p>{blog.likes}</p>
-              <a href={blog.url}>{blog.url}</a>
+              <p>{blog.url}</p>
             </Link>
           );
         })}
